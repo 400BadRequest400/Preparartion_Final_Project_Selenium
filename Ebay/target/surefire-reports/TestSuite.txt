@@ -1,0 +1,101 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 55, Failures: 9, Errors: 0, Skipped: 42, Time elapsed: 48.158 s <<< FAILURE! - in TestSuite
+homeTest.MotorsClassTest.setBoatTest  Time elapsed: 3.175 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:64917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41e032d2d2ed58bf5e0fda76e3fb699e
+*** Element info: {Using=xpath, value=//a[contains(text(),'Boats')]}
+	at homeTest.MotorsClassTest.setBoatTest(MotorsClassTest.java:25)
+
+homeTest.MotorsClassTest.afterEachTestMethod[[TestResult name=setBoatTest status=FAILURE method=MotorsClassTest.setBoatTest()[pri:0, instance:homeTest.MotorsClassTest@6321e813] output=MotorsClassTest: set Boat Test]](0)  Time elapsed: 3.211 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:64917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41e032d2d2ed58bf5e0fda76e3fb699e
+
+homeTest.SearchClassTest.setSearchBoxTest  Time elapsed: 0.114 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0042e173fbc6e6d491dc2713e91671b2
+	at homeTest.SearchClassTest.setSearchBoxTest(SearchClassTest.java:23)
+
+homeTest.SearchClassTest.afterEachTestMethod[[TestResult name=setSearchBoxTest status=FAILURE method=SearchClassTest.setSearchBoxTest()[pri:0, instance:homeTest.SearchClassTest@79be0360] output=SearchClassTest: set Search Box Test]](0)  Time elapsed: 0.189 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0042e173fbc6e6d491dc2713e91671b2
+
+regressionTest.BrokenLinksTest.init  Time elapsed: 2.17 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c7b0ead4a367c70e5095ed6b87ca1225
+	at regressionTest.BrokenLinksTest.init(BrokenLinksTest.java:21)
+
+regressionTest.NewWindowClassTest.NewWindowValidationTest  Time elapsed: 5.505 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dc589f01c8d5c19a717f3029c042370e
+*** Element info: {Using=xpath, value=//span[@class='b-pageheader__text']}
+	at regressionTest.NewWindowClassTest.NewWindowValidationTest(NewWindowClassTest.java:29)
+
+regressionTest.NewWindowClassTest.afterEachTestMethod[[TestResult name=NewWindowValidationTest status=FAILURE method=NewWindowClassTest.NewWindowValidationTest()[pri:0, instance:regressionTest.NewWindowClassTest@57855c9a] output=NewWindowClassTest: New Window Validation Test]](0)  Time elapsed: 5.535 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65194}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dc589f01c8d5c19a717f3029c042370e
+
+regressionTest.iFrameClassTest.setiFrameTest  Time elapsed: 0.805 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bcc77503f301ab8114fd9e3ca07346f5
+	at regressionTest.iFrameClassTest.setiFrameTest(iFrameClassTest.java:22)
+
+regressionTest.iFrameClassTest.afterEachTestMethod[[TestResult name=setiFrameTest status=FAILURE method=iFrameClassTest.setiFrameTest()[pri:0, instance:regressionTest.iFrameClassTest@3224f60b] output=iFrameClassTest: seti Frame Test]](0)  Time elapsed: 0.805 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Djafars-MBP.home', ip: 'fd4b:8d38:69ba:1:89a1:ee85:bc37:797b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pk/fdr5867d69j...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bcc77503f301ab8114fd9e3ca07346f5
+

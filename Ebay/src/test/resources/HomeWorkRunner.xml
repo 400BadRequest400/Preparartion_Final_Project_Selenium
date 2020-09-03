@@ -47,12 +47,6 @@
 <!--                    <exclude name="setSearchBoxVerificationTest"></exclude>-->
                 </methods>
             </class>
-            <class name="regressionTest.DragAndDropTest">
-                <methods>
-<!--                    <exclude name="setdragAndDropTest"></exclude>-->
-<!--                    <exclude name="DragAndDropVerificationTest"></exclude>-->
-                </methods>
-            </class>
             <class name="regressionTest.BrokenLinksTest">
                 <methods>
 <!--                    <exclude name="EbayLinksActivlinksTest"></exclude>-->
